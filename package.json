@@ -1,0 +1,19 @@
+{
+  "name": "shared-styles",
+  "version": "1.0.0",
+  "description": "POC Shared Styles - Fundamentals + Web Components",
+  "main": "variables.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbadan/shared-styles.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbadan/shared-styles/issues"
+  },
+  "homepage": "https://github.com/jbadan/shared-styles#readme"
+}
