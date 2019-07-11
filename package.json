@@ -5,7 +5,7 @@
   "main": "dist/css/sap_fiori_3/parameters-bundle.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm-run-all --sequential build:styles-bundles build:styles-components",
+    "build": "rm -rf dist/ && npm-run-all --sequential build:styles-bundles build:styles-components",
     "build:styles-bundles": "postcss src/**/parameters-bundle.css --config config/postcss.bundles --base src --dir dist/css/",
     "build:styles-components": "postcss src/*.css --config config/postcss.components --base src --dir dist/css/"
   },
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/jbadan/shared-styles#readme",
   "devDependencies": {
+    "array-uniq": "^2.1.0",
     "cssnano": "^4.1.10",
+    "less": "^3.9.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^7.0.17",
     "postcss-cli": "^6.1.3",

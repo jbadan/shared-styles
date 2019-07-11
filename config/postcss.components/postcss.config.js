@@ -7,14 +7,14 @@ module.exports = {
 	plugins: [
 		postcssImport(),
 		postcssAddFallback({importFrom: './dist/css/sap_fiori_3/parameters-bundle.css'}),
-		cssnano({
-			preset: [
-				'default', {
-					mergeLonghand: false, // https://github.com/cssnano/cssnano/issues/675
-					mergeRules: false, // https://github.com/cssnano/cssnano/issues/730
-				},
-			]
-		}),
+		// cssnano({
+		// 	preset: [
+		// 		'default', {
+		// 			mergeLonghand: false, // https://github.com/cssnano/cssnano/issues/675
+		// 			mergeRules: false, // https://github.com/cssnano/cssnano/issues/730
+		// 		},
+		// 	]
+		// }),
 		postcssCSStoESM(),
 	]
 };
