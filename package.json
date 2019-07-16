@@ -1,6 +1,6 @@
 {
   "name": "shared-styles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "POC Shared Styles - Fundamentals + Web Components",
   "main": "dist/css/sap_fiori_3/parameters-bundle.css",
   "scripts": {
